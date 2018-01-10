@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context="com.harish.eat.result">
+
+    <TextView
+        android:id="@+id/gameover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAME OVER"
+        android:textAlignment="center"
+        android:textColor="#fdff00"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/scorelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="150"
+        android:textAlignment="center"
+        android:textColor="#fdff00"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/highScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="High Score: 0"
+        android:textAlignment="center"
+        android:textColor="#fdff00"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/tryAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#fdff00"
+        android:onClick="tryAgain"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="Try Again"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/share_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="15dp"
+        android:src="@drawable/share"
+        />
+</LinearLayout>

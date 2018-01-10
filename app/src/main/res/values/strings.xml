@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Bounce</string>
+    <string name="instructions_heading">Instructions</string>
+    <string name="instructions">Click on the screen anywhere to start the game. You have to keep the screen touched to move Ball up. Avoid Black particles! \n\n Yellow Particles: 10 Pts \n\n Blue particles: 50 Pts \n\n</string>
+    <string name="enjoy">Enjoy!!</string>
+</resources>

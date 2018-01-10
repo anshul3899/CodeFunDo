@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/instructions_heading"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="#fdff00"
+        android:id="@+id/instructions"
+        android:padding="20dp"/>
+    <TextView
+
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:textColor="#fdff00"
+        android:textAppearance="@android:style/TextAppearance.Small"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/instr"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/enjoy"
+        android:textColor="#fdff00"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        />
+
+</LinearLayout>
